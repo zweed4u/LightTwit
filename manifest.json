@@ -1,0 +1,13 @@
+{
+  "browser_action": {
+    	"default_title": "LightTwit"
+   },
+   "content_scripts": [ {
+          "js": ["lightTwit.js"],
+          "matches": ["<all_urls>"]
+   } ],
+   "description": "Twitter but lightweight",
+   "manifest_version": 2,
+   "name": "LightTwit",
+   "version": "1"
+}
